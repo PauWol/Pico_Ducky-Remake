@@ -114,13 +114,13 @@ def parseLine(line):
     elif(line[0:12] == "DEFAULTDELAY"):
         defaultDelay = int(line[13:]) * 10
     elif(line[0:10] == "CRAZYMOUSE"):
-        for i in range(int(line[10:])):
+        for i in range(int(line[11:])):
             randomMouseMove()
     elif(line[0:9] == "LEFTCLICK"):
-        for i in range(int(line[9:])):
+        for i in range(int(line[10:])):
             clicker(1)
     elif(line[0:10] == "RIGHTCLICK"):
-        for i in range(int(line[10:])):
+        for i in range(int(line[11:])):
             clicker(2)
     elif(line[0:8] == "VOLUMEUP"):
         for i in range(int(line[9:])):
